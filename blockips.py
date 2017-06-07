@@ -1,7 +1,8 @@
 #!/usr/bin/python
 #blockips.py
-#This  takes a list of ips and adds cisco commands to them
-#so we can block the heathens.
+#This takes a list of ips and adds cisco commands to them
+#so we can unblock the heathens. After you paste hit return if there is not a newline,
+#then Control+D to send.
 
 list = []
 
