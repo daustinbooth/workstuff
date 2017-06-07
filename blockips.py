@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-list = []
 """
 blockips.py
 This takes a list of ips and adds cisco commands to them
