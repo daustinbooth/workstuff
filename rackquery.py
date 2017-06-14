@@ -1,3 +1,10 @@
+#!/usr/bin/python
+'''This script will take a single argument, either a hostname or IP address,
+    and query our Racktables database for information.'''
+from __future__ import print_function
+from mysqlrackconnect import connection
+import sys
+
 def make_dict(rackdata):
     #Return a dictionary of name:ipaddr pairs.
     
